@@ -1,0 +1,57 @@
+{
+  "__tool__": {
+    "version": "V2.0",
+    "date": "20260625",
+    "url": "https://github.com/chenxin9648/madin/blob/main/playhub_Flasher_V2.0.exe",
+    "exe_name": "playhub_Flasher_V2.0.exe",
+    "log": "\n######V2.0 (20260625) 更新日志######\n1. 支持 GitHub + ghfast.top 一键自更新，点击更新后自动替换并打开新版本。\n2. 按产品分类新增固件按钮（8K / 1K透传 / 物理宏）。\n3. 修复自动烧录与版本检测问题。\n\n######升级方法######\n弹出更新提示后点击「一键更新并打开新版本」即可，无需手动关闭旧程序。"
+  },
+  "8K_LEFT": {
+    "name": "8K透传版 鼠标口",
+    "version": "最新版本0619",
+    "url": "https://gitee.com/wanjiashequ/wanjiashequ/raw/master/8K_Z.hex",
+    "log": "\n######0619更新日志######\n1.修复部分用户重启后鼠标失效的问题\n######0503更新日志######\n1. 优化8K回报率下的数据传输稳定性。\n2. 优化鼠标识别速度。\n3. 修复了已知部分鼠标连接问题。"
+  },
+  "8K_RIGHT": {
+    "name": "8K透传版 受控口",
+    "version": "最新版本0619",
+    "url": "https://gitee.com/wanjiashequ/wanjiashequ/raw/master/8K_Y.hex",
+    "log": "\n######0619更新日志######\n1.新增曲线修改\n2. 版本回码修改\n######0527更新日志######\n1.修复部分用户闪退问题\n######0505更新日志######\n1.上位机修复C语言鼠标调用解析错误的问题\n######0503更新日志######\n1. 同步8K左侧优化逻辑。\n2. 增强了同步精度。\n3. 修复串口协议连接存在的部分bug。\n4.补全了串口键盘协议。"
+  },
+  "HIGH_VERSION": {
+    "name": "高配兼容版",
+    "version": "最新版本0503",
+    "url": "https://gitee.com/wanjiashequ/wanjiashequ/raw/master/307_net_3.bin",
+    "log": "\n######0503更新日志######\n1. 更新身份生成策略，增加键盘调用，未被特征记录可无视此版本。"
+  },
+  "STD_VERSION": {
+    "name": "1K透传 网络版",
+    "version": "最新版本0506",
+    "url": "https://gitee.com/wanjiashequ/wanjiashequ/raw/master/208_net.hex",
+    "log": "\n######0506更新日志######\n1.上位机修复C语言鼠标调用解析错误的问题\n \n######0503更新日志######\n1. 提升综合稳定性。\n2. 修复部分鼠标不识别和部分鼠标无键盘接口导致的卡键问题。\n3. 网口补全xy轴屏蔽。\n4.串口协议补全，增加键盘功能"
+  },
+  "1K_SERIAL": {
+    "name": "1K透传 串口版",
+    "version": "最新版本0615",
+    "url": "https://gitee.com/wanjiashequ/wanjiashequ/raw/master/208_343.hex",
+    "log": "\n######0506更新日志######\n1. 独立发布1K串口专用固件。\n2. makcu v2串口协议补全，增加键盘功能。\n3. 修复部分鼠标无键盘接口导致的卡键问题。"
+  },
+  "1K_SERIAL_HID": {
+    "name": "1K 串口HID定制固件",
+    "version": "最新版本0625",
+    "url": "https://gitee.com/wanjiashequ/wanjiashequ/raw/master/208_hid.hex",
+    "log": "\n1.单机HID专用协议"
+  },
+  "Macro_HUB": {
+    "name": "玩家社区物理宏HUB",
+    "version": "最新版本0604",
+    "url": "https://gitee.com/wanjiashequ/wanjiashequ/raw/master/hong6-4.bin",
+    "log": "\n######0604更新日志######\n1. 更新界面优化，更改身份策略。"
+  },
+  "Macro_mini": {
+    "name": "玩家社区物理宏mini",
+    "version": "最新版本0625",
+    "url": "https://gitee.com/wanjiashequ/wanjiashequ/raw/master/208_hid.hex",
+    "log": ""
+  }
+}
